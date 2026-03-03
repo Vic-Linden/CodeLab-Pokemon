@@ -1,0 +1,17 @@
+
+body {
+  background: blue;
+}
+
+header {
+  background-color: yellow;
+}
+
+.container {
+  color: red;
+  text-align: center;
+}
+
+.card {
+  background: hotpink;
+}
