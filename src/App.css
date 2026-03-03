@@ -1,17 +1,77 @@
 
 body {
-  background: blue;
+  background: #ffe4f8;
+  display: flex;
+  
 }
 
 header {
-  background-color: yellow;
+  background-image:  linear-gradient(to right top, #ff0000, #ff0040, #fb006c, #e10095, #b800b8, #d000b0, #e500a8, #f8009f, #ff416c, #ff8739, #ffc700, #e4ff37);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .container {
-  color: red;
+  
   text-align: center;
+  
+}
+
+.card p {
+  color: black;
+  font-size: 20px;
 }
 
 .card {
-  background: hotpink;
+  background: #ec8ad0;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 5%;
 }
+
+h2 {
+  color: white;
+  font-size: 80px;
+}
+
+.result img {
+  display: flex;
+  width:450px;
+}
+
+.result p {
+  font-size: 50px;
+}
+
+footer {
+  background-color:#E4FF37;
+  height: 80px;
+  margin-top: 1rem;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (min-width: 700px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  body {
+    display: flex;
+  }
+
+  .result img {
+    display: flex;
+    padding: 0 0 0 28rem;
+  }
+
+  .card {
+    display: flex;
+  }
+}
+
